@@ -1,0 +1,17 @@
+# HFSS Simulation Results
+*.aedtresults/
+*.results/
+*.pjt/
+*.lock
+*.log
+*.err
+*.msg
+*.stat
+
+# Temporary Files
+*.tmp
+*.bak
+
+# Auto-generated folders
+*_results/
+*_analysis/
