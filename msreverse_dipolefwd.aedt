@@ -77555,14 +77555,7 @@ $begin 'AnsoftProject'
 				NumPlots=0
 			$end 'FieldsPlotManagerID'
 			$begin 'Report3dInGeomWnd'
-				Report3dNum=1
-				$begin 'Report3dPlot_1'
-					ReportID=71
-					Transparency=0.400000005960464
-					ScaleFactor=0.25
-					Visible=true
-					CoordSys=-1
-				$end 'Report3dPlot_1'
+				Report3dNum=0
 			$end 'Report3dInGeomWnd'
 			$begin 'Report2dInGeomWnd'
 				Report2dNum=0
@@ -77727,8 +77720,6 @@ $begin 'AnsoftProject'
 					ID=1745
 					Name='LastAdaptive'
 					$begin 'SimDataExtractor'
-						SimValue('GainTotal', 1, 90, true, SimValueID=3221, 0, 0, 2, 0, false, false, 12, 1, 0, 1, 1, '', 0, 0)
-						SimValue('DirTotal', 1, 90, true, SimValueID=3222, 0, 0, 2, 0, false, false, 12, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'Sweep'
 								Variable='Freq'
@@ -77780,12 +77771,17 @@ $begin 'AnsoftProject'
 					Name='Sweep'
 					$begin 'SimDataExtractor'
 <<<<<<< HEAD
+<<<<<<< HEAD
 						SimValue('Gamma(1)', 2, 90, false, SimValueID=3121, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						SimValue('S(1,1)', 2, 90, false, SimValueID=3122, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 =======
 						SimValue('Gamma(1)', 2, 90, false, SimValueID=3219, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						SimValue('S(1,1)', 2, 90, false, SimValueID=3220, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+						SimValue('Gamma(1)', 2, 90, false, SimValueID=3121, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=3122, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -77898,10 +77894,14 @@ $begin 'AnsoftProject'
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
 <<<<<<< HEAD
+<<<<<<< HEAD
 						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(5, -1, -1, -11, -45, 0, 0, 1359, 430), OrientationMatrix(3.82448128776742e-24, 9.5052654636163e-10, -0.017999991774559, 0, -0.017999991774559, 4.27736512875754e-09, -1.37753336738499e-23, 0, -4.03973920981571e-09, 0.017999991774559, -8.31711088888909e-10, 0, -0.0449999570846558, -0.106199964880943, -6.19499969482422, 1, 0, -1.3368968963623, 1.61505055427551, -0.594239592552185, 0.522550344467163, -4.4034309387207, 16.7034301757812), Drawings[129: 'Box1', 'Box2', 'Rectangle1', 'Rectangle2', 'C1', 'C2', 'L', 'R', 'Rectangle21', 'Rectangle22', 'C3', 'C4', 'L1', 'R1', 'Rectangle1_1', 'Rectangle1_2', 'Rectangle2_1', 'Rectangle2_2', 'Rectangle21_1', 'Rectangle21_2', 'Rectangle22_1', 'Rectangle22_2', 'C1_1', 'C1_2', 'C2_1', 'C2_2', 'L_1', 'L_2', 'R_1', 'R_2', 'C3_1', 'C3_2', 'C4_1', 'C4_2', 'L1_1', 'L1_2', 'R1_1', 'R1_2', 'Rectangle1_3', 'Rectangle1_4', 'Rectangle2_3', 'Rectangle2_4', 'Rectangle21_3', 'Rectangle21_4', 'Rectangle22_3', 'Rectangle22_4', 'Rectangle1_1_1', 'Rectangle1_1_2', 'Rectangle1_2_1', 'Rectangle1_2_2', 'Rectangle2_1_1', 'Rectangle2_1_2', 'Rectangle2_2_1', 'Rectangle2_2_2', 'Rectangle21_1_1', 'Rectangle21_1_2', 'Rectangle21_2_1', 'Rectangle21_2_2', 'Rectangle22_1_1', 'Rectangle22_1_2', 'Rectangle22_2_1', 'Rectangle22_2_2', 'C1_3', 'C1_4', 'C2_3', 'C2_4', 'L_3', 'L_4', 'R_3', 'R_4', 'C1_1_1', 'C1_1_2', 'C1_2_1', 'C1_2_2', 'C2_1_1', 'C2_1_2', 'C2_2_1', 'C2_2_2', 'L_1_1', 'L_1_2', 'L_2_1', 'L_2_2', 'R_1_1', 'R_1_2', 'R_2_1', 'R_2_2', 'C3_3', 'C3_4', 'C4_3', 'C4_4', 'L1_3', 'L1_4', 'R1_3', 'R1_4', 'C3_1_1', 'C3_1_2', 'C3_2_1', 'C3_2_2', 'C4_1_1', 'C4_1_2', 'C4_2_1', 'C4_2_2', 'L1_1_1', 'L1_1_2', 'L1_2_1', 'L1_2_2', 'R1_1_1', 'R1_1_2', 'R1_2_1', 'R1_2_2', 'Rectangle23', 'Rectangle24', 'Rectangle25', 'Rectangle26', 'C1_5', 'L_5', 'R_5', 'C2_5', 'Rectangle28', 'Rectangle29', 'Rectangle30', 'Rectangle31', 'C1_6', 'L_6', 'R_6', 'C2_6', 'PORT1', 'Box3', ''], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=5, dYForGrid=5, dZForGrid=5, dRForGrid=5, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 =======
 						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -8, -31, 76, 76, 1399, 506), OrientationMatrix(0, 0, -0.00881816260516644, 0, -0.00881816260516644, 0, 0, 0, 0, 0.00881816260516644, 0, 0, -0.0220454335212708, -0.0520271807909012, -5.8402795791626, 1, 0, -1.63205480575562, 1.14242053031921, -0.784794449806213, 0.709722876548767, 0.648128509521484, 10.9883403778076), Drawings[130: 'Box1', 'Box2', 'Rectangle1', 'Rectangle2', 'C1', 'C2', 'L', 'R', 'Rectangle21', 'Rectangle22', 'C3', 'C4', 'L1', 'R1', 'Rectangle1_1', 'Rectangle1_2', 'Rectangle2_1', 'Rectangle2_2', 'Rectangle21_1', 'Rectangle21_2', 'Rectangle22_1', 'Rectangle22_2', 'C1_1', 'C1_2', 'C2_1', 'C2_2', 'L_1', 'L_2', 'R_1', 'R_2', 'C3_1', 'C3_2', 'C4_1', 'C4_2', 'L1_1', 'L1_2', 'R1_1', 'R1_2', 'Rectangle1_3', 'Rectangle1_4', 'Rectangle2_3', 'Rectangle2_4', 'Rectangle21_3', 'Rectangle21_4', 'Rectangle22_3', 'Rectangle22_4', 'Rectangle1_1_1', 'Rectangle1_1_2', 'Rectangle1_2_1', 'Rectangle1_2_2', 'Rectangle2_1_1', 'Rectangle2_1_2', 'Rectangle2_2_1', 'Rectangle2_2_2', 'Rectangle21_1_1', 'Rectangle21_1_2', 'Rectangle21_2_1', 'Rectangle21_2_2', 'Rectangle22_1_1', 'Rectangle22_1_2', 'Rectangle22_2_1', 'Rectangle22_2_2', 'C1_3', 'C1_4', 'C2_3', 'C2_4', 'L_3', 'L_4', 'R_3', 'R_4', 'C1_1_1', 'C1_1_2', 'C1_2_1', 'C1_2_2', 'C2_1_1', 'C2_1_2', 'C2_2_1', 'C2_2_2', 'L_1_1', 'L_1_2', 'L_2_1', 'L_2_2', 'R_1_1', 'R_1_2', 'R_2_1', 'R_2_2', 'C3_3', 'C3_4', 'C4_3', 'C4_4', 'L1_3', 'L1_4', 'R1_3', 'R1_4', 'C3_1_1', 'C3_1_2', 'C3_2_1', 'C3_2_2', 'C4_1_1', 'C4_1_2', 'C4_2_1', 'C4_2_2', 'L1_1_1', 'L1_1_2', 'L1_2_1', 'L1_2_2', 'R1_1_1', 'R1_1_2', 'R1_2_1', 'R1_2_2', 'Rectangle23', 'Rectangle24', 'Rectangle25', 'Rectangle26', 'C1_5', 'L_5', 'R_5', 'C2_5', 'Rectangle28', 'Rectangle29', 'Rectangle30', 'Rectangle31', 'C1_6', 'L_6', 'R_6', 'C2_6', 'PORT1', 'Box3', '', 'Directivity Plot1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=10, dYForGrid=10, dZForGrid=10, dRForGrid=10, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(5, -1, -1, -11, -45, 0, 0, 1359, 430), OrientationMatrix(3.82448128776742e-24, 9.5052654636163e-10, -0.017999991774559, 0, -0.017999991774559, 4.27736512875754e-09, -1.37753336738499e-23, 0, -4.03973920981571e-09, 0.017999991774559, -8.31711088888909e-10, 0, -0.0449999570846558, -0.106199964880943, -6.19499969482422, 1, 0, -1.3368968963623, 1.61505055427551, -0.594239592552185, 0.522550344467163, -4.4034309387207, 16.7034301757812), Drawings[129: 'Box1', 'Box2', 'Rectangle1', 'Rectangle2', 'C1', 'C2', 'L', 'R', 'Rectangle21', 'Rectangle22', 'C3', 'C4', 'L1', 'R1', 'Rectangle1_1', 'Rectangle1_2', 'Rectangle2_1', 'Rectangle2_2', 'Rectangle21_1', 'Rectangle21_2', 'Rectangle22_1', 'Rectangle22_2', 'C1_1', 'C1_2', 'C2_1', 'C2_2', 'L_1', 'L_2', 'R_1', 'R_2', 'C3_1', 'C3_2', 'C4_1', 'C4_2', 'L1_1', 'L1_2', 'R1_1', 'R1_2', 'Rectangle1_3', 'Rectangle1_4', 'Rectangle2_3', 'Rectangle2_4', 'Rectangle21_3', 'Rectangle21_4', 'Rectangle22_3', 'Rectangle22_4', 'Rectangle1_1_1', 'Rectangle1_1_2', 'Rectangle1_2_1', 'Rectangle1_2_2', 'Rectangle2_1_1', 'Rectangle2_1_2', 'Rectangle2_2_1', 'Rectangle2_2_2', 'Rectangle21_1_1', 'Rectangle21_1_2', 'Rectangle21_2_1', 'Rectangle21_2_2', 'Rectangle22_1_1', 'Rectangle22_1_2', 'Rectangle22_2_1', 'Rectangle22_2_2', 'C1_3', 'C1_4', 'C2_3', 'C2_4', 'L_3', 'L_4', 'R_3', 'R_4', 'C1_1_1', 'C1_1_2', 'C1_2_1', 'C1_2_2', 'C2_1_1', 'C2_1_2', 'C2_2_1', 'C2_2_2', 'L_1_1', 'L_1_2', 'L_2_1', 'L_2_2', 'R_1_1', 'R_1_2', 'R_2_1', 'R_2_2', 'C3_3', 'C3_4', 'C4_3', 'C4_4', 'L1_3', 'L1_4', 'R1_3', 'R1_4', 'C3_1_1', 'C3_1_2', 'C3_2_1', 'C3_2_2', 'C4_1_1', 'C4_1_2', 'C4_2_1', 'C4_2_2', 'L1_1_1', 'L1_1_2', 'L1_2_1', 'L1_2_2', 'R1_1_1', 'R1_1_2', 'R1_2_1', 'R1_2_2', 'Rectangle23', 'Rectangle24', 'Rectangle25', 'Rectangle26', 'C1_5', 'L_5', 'R_5', 'C2_5', 'Rectangle28', 'Rectangle29', 'Rectangle30', 'Rectangle31', 'C1_6', 'L_6', 'R_6', 'C2_6', 'PORT1', 'Box3', ''], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=5, dYForGrid=5, dZForGrid=5, dRForGrid=5, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -77973,11 +77973,15 @@ $begin 'AnsoftProject'
 								$end 'TraceDef'
 							$end 'S Parameter Plot1'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 						$end 'Reports'
 						NextUniqueID=70
 						MoveBackwards=false
 						$begin 'NextVersID'
 							NextUniqueID=149
+<<<<<<< HEAD
 =======
 							$begin 'Directivity Plot1'
 								ReportID=71
@@ -78070,6 +78074,8 @@ $begin 'AnsoftProject'
 						$begin 'NextVersID'
 							NextUniqueID=151
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
@@ -78095,10 +78101,14 @@ $begin 'AnsoftProject'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
 <<<<<<< HEAD
+<<<<<<< HEAD
 									NextUniqueID=43
 =======
 									NextUniqueID=39
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+									NextUniqueID=43
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -78107,6 +78117,9 @@ $begin 'AnsoftProject'
 										ShowAnsysLogo=true
 									$end 'PlotHeaderDataSource'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 									StockNameIDMap(AxisX=6, AxisY1=7, AxisY10=16, AxisY11=17, AxisY12=18, AxisY13=19, AxisY14=20, AxisY15=21, AxisY16=22, AxisY17=23, AxisY18=24, AxisY19=25, AxisY2=8, AxisY20=26, AxisY3=9, AxisY4=10, AxisY5=11, AxisY6=12, AxisY7=13, AxisY8=14, AxisY9=15, Grid=27, Header=0, Legend=3, MarkerLegend=41, XYHorizScroller=5)
 									$begin 'SourceList'
 										$begin 'ListItem'
@@ -78119,10 +78132,13 @@ $begin 'AnsoftProject'
 												PrimarySweepValue='2.834GHz'
 											$end 'MarkerDataSource'
 										$end 'ListItem'
+<<<<<<< HEAD
 =======
 									StockNameIDMap(AxisX=6, AxisY1=7, AxisY10=16, AxisY11=17, AxisY12=18, AxisY13=19, AxisY14=20, AxisY15=21, AxisY16=22, AxisY17=23, AxisY18=24, AxisY19=25, AxisY2=8, AxisY20=26, AxisY3=9, AxisY4=10, AxisY5=11, AxisY6=12, AxisY7=13, AxisY8=14, AxisY9=15, Grid=27, Header=0, Legend=3, XYHorizScroller=5)
 									$begin 'SourceList'
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 									$end 'SourceList'
 									Version='17.0:20150830'
 									$begin 'DocAttributes'
@@ -79373,16 +79389,22 @@ $begin 'AnsoftProject'
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 																Top=587
 																Left=1802
 																Bottom=9849
 																Right=8683
+<<<<<<< HEAD
 =======
 																Top=628
 																Left=1735
 																Bottom=9843
 																Right=8731
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -79391,16 +79413,22 @@ $begin 'AnsoftProject'
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 																Top=587
 																Left=1802
 																Bottom=9849
 																Right=8683
+<<<<<<< HEAD
 =======
 																Top=628
 																Left=1735
 																Bottom=9843
 																Right=8731
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -79412,10 +79440,14 @@ $begin 'AnsoftProject'
 																Left=75
 																Bottom=9925
 <<<<<<< HEAD
+<<<<<<< HEAD
 																Right=1507
 =======
 																Right=1451
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+																Right=1507
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -79427,25 +79459,35 @@ $begin 'AnsoftProject'
 															$begin 'AxisRect'
 																Top=75
 <<<<<<< HEAD
+<<<<<<< HEAD
 																Left=8683
 =======
 																Left=8731
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+																Left=8683
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 																Bottom=9925
 																Right=9925
 															$end 'AxisRect'
 															$begin 'GridRect'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 																Top=587
 																Left=1802
 																Bottom=9849
 																Right=8683
+<<<<<<< HEAD
 =======
 																Top=628
 																Left=1735
 																Bottom=9843
 																Right=8731
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 															$end 'GridRect'
 															AxisCollapsed=false
 															AxisExpandCollapseByUser=false
@@ -79457,6 +79499,9 @@ $begin 'AnsoftProject'
 															$begin 'AxisRect'
 																Top=75
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 																Left=1802
 																Bottom=587
 																Right=8683
@@ -79466,6 +79511,7 @@ $begin 'AnsoftProject'
 																Left=1802
 																Bottom=9849
 																Right=8683
+<<<<<<< HEAD
 =======
 																Left=1735
 																Bottom=628
@@ -79477,6 +79523,8 @@ $begin 'AnsoftProject'
 																Bottom=9843
 																Right=8731
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 															$end 'GridRect'
 															AxisCollapsed=false
 															AxisExpandCollapseByUser=false
@@ -79505,6 +79553,7 @@ $begin 'AnsoftProject'
 																	$begin 'BoundingRect'
 																		Top=4850
 <<<<<<< HEAD
+<<<<<<< HEAD
 																		Left=1607
 																		Bottom=9850
 																		Right=9107
@@ -79513,6 +79562,11 @@ $begin 'AnsoftProject'
 																		Bottom=9850
 																		Right=9051
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+																		Left=1607
+																		Bottom=9850
+																		Right=9107
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 																	$end 'BoundingRect'
 																	ModifySize=false
 																	ModifyPosition=false
@@ -79522,6 +79576,9 @@ $begin 'AnsoftProject'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
 														DataSourceID=42
@@ -79537,8 +79594,11 @@ $begin 'AnsoftProject'
 														$end 'OverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
+<<<<<<< HEAD
 =======
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 											$end 'PlotAttributeStoreMap'
 											PlotType=1
 										$end 'MapItem'
@@ -79563,10 +79623,14 @@ $begin 'AnsoftProject'
 										$begin 'PT'
 											ID=1
 <<<<<<< HEAD
+<<<<<<< HEAD
 											TransSrcDwg(-1, 0, 35, 3, 4, 6, 31, 7, 32, 27, 28, 37, 38, 39, 40, 41, 42)
 =======
 											TransSrcDwg(-1, 0, 35, 3, 4, 6, 31, 7, 32, 27, 28, 37, 38)
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+											TransSrcDwg(-1, 0, 35, 3, 4, 6, 31, 7, 32, 27, 28, 37, 38, 39, 40, 41, 42)
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 										$end 'PT'
 									$end 'AllTransSrcDwg'
 									$begin 'AllPtSVID'
@@ -79575,6 +79639,7 @@ $begin 'AnsoftProject'
 								$end 'PlotDisplayDataManager'
 							$end 'Report2D'
 						$end 'S Parameter Plot1'
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 						$begin 'Directivity Plot1'
@@ -79698,6 +79763,8 @@ $begin 'AnsoftProject'
 							$end 'Report3D'
 						$end 'Directivity Plot1'
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
 						$begin 'S Parameter Plot1'
@@ -79705,6 +79772,7 @@ $begin 'AnsoftProject'
 							$begin 'WindowInfoList'
 							$end 'WindowInfoList'
 						$end 'S Parameter Plot1'
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 						$begin 'Directivity Plot1'
@@ -79714,6 +79782,8 @@ $begin 'AnsoftProject'
 							$end 'WindowInfoList'
 						$end 'Directivity Plot1'
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 				$begin 'Properties'
@@ -79764,6 +79834,9 @@ AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
 CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
 3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAoorH8Q+IdA8I6BrnivxXrmj+GPC3hj\
 R9T8Q+JfEviHU7LRdA8PaBotlPqWs65rms6lPFb6To9pp1tc3Fzc3EkcMENu8srpGjMADYryP42/Hv4\
 M/s3+Bb34lfHX4leEvhf4Ls3ubaLV/Feqw2Mmtatb6Pq2vp4Z8KaSu+98Z+M7nSdC1eWw0TSLa91fUT\
@@ -79879,6 +79952,7 @@ WkwWGqadPoc/iG5uvDGha58Z7+4tbDUxqmn67Ha+DLvT/ABW+iX/g3VZdMTxDqP61/Br4F/CD9nrwZD\
 8P/gp8O/DHw48KJcx6je2HhzT0t7vxDry6VpeiXPi3xlrk5kv/ABx44u9N0TSk1HXdYur7WNTaxSbUL\
 65mBkPq9AGP4e8PaB4R0DQ/CnhTQ9H8MeFvDGj6Z4e8NeGvD2mWWi6B4e0DRbKDTdG0PQ9G02CK30nR\
 7TTra2t7a2t444YIbdIokSNFUbFFFABRRRQB/9k='
+<<<<<<< HEAD
 =======
 Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACvEv2hP2jfgt+yr8MtT+\
 Mfx+8c2nw8+HGj6joukX3iG60rX9dcan4h1GDStJsrTRfC2k32oajcSXc6lltrSXyYYprqfy7aCaaP2\
@@ -79951,6 +80025,8 @@ AxIn4z/8A0IFfoF/wTi/Y3+Pv7Mfjr9oPxp8cZfg/F/wtLwn8C/C/hfTfhR478aePPs//AAq7WPjnq2\
 t32vXni/4UeFfsPn/8LU0iO1it4rzd/Zty80kP7pXAP1ZooooAKKKKACiiigAooooAKKKKACiiigD/2\
 Q=='
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 	$begin 'DesignInfo'
 		DesignName='HFSSDesign1'
 		Notes=''
@@ -79971,6 +80047,9 @@ AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
 CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
 3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKx/EPiH\
 QPCOga54r8V65o/hjwt4Y0fU/EPiXxL4h1Oy0XQPD2gaLZT6lrOua5rOpTxW+k6PaadbXNxc3NxJHDB\
 DbvLK6RozAA2KK/Mkf8ABXb9iY/Fm5+GX/CbeLV8PWmm6Zc3Hx4fwB4jj+AS6lrPiXVfD+m2aeO3thP\
@@ -80246,6 +80325,7 @@ oGi2UGm6Noeh6NpsEVvpOj2mnW1tb21tbxxwwQ26RRIkaKoAPz/8A2Rv+CZ3wL/ZY1jRviPdX3iH4wf\
 HXTbC8gi+J/jaYWeleF59c0Sz0rxFB8LPhppMo0jwLYOT4iistQul1rxnb6R4w1LQb7xlqul3EkL/ox\
 RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB\
 RRRQAUUUUAFFFFABRRRQB//Z'
+<<<<<<< HEAD
 =======
 Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKKACiii\
 gAooooAKKKKACivym/4KrfFX4g2ng79nv8AZQ+CPj7xR8Nfjb+2n8fPB3wu0Tx14F1fUNC8bfD/AOGH\
@@ -80411,5 +80491,7 @@ iZ8N/Gf7fn7F2l+D/AIg+CPFepwfE34tX8+neGvFeg67fQ2MX7If7StvLey2ml38skdotxdWsbSFQge\
 gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii\
 igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q=='
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 	$end 'DesignInfo'
 $end 'ProjectPreview'

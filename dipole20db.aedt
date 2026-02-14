@@ -279,10 +279,14 @@ $begin 'AnsoftProject'
 			$begin 'GeometryCore'
 				BlockVersionID=3
 <<<<<<< HEAD
+<<<<<<< HEAD
 				DataVersion=34
 =======
 				DataVersion=27
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+				DataVersion=34
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 				NativeKernel='PARASOLID'
 				NativeKernelVersionID=25
 				Units='mm'
@@ -302,10 +306,14 @@ $begin 'AnsoftProject'
 							IDServerRangeMin=0
 							IDServerRangeMax=2146483647
 <<<<<<< HEAD
+<<<<<<< HEAD
 							NextUniqueID=8921
 =======
 							NextUniqueID=6220
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+							NextUniqueID=8921
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 							MoveBackwards=false
 						$end 'AnsoftRangedIDServer'
 						$begin 'AnsoftRangedIDServer'
@@ -346,6 +354,9 @@ $begin 'AnsoftProject'
 							$end 'Attributes'
 						$end 'Group'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 						$begin 'Group'
 							GroupID=6227
 							$begin 'Attributes'
@@ -374,8 +385,11 @@ $begin 'AnsoftProject'
 								ParentGroupID=3547
 							$end 'Attributes'
 						$end 'Group'
+<<<<<<< HEAD
 =======
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 					$end 'Groups'
 					$begin 'UserDefinedModels'
 					$end 'UserDefinedModels'
@@ -57973,6 +57987,9 @@ $begin 'AnsoftProject'
 							rectangle(1, 2, 9, 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22)
 						$end 'rectangle'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 						$begin 'rectangle1_'
 							rectangle1_(1, 2, 3, 4)
 						$end 'rectangle1_'
@@ -58009,8 +58026,11 @@ $begin 'AnsoftProject'
 						$begin 'rectangle2_2_'
 							rectangle2_2_(1, 2)
 						$end 'rectangle2_2_'
+<<<<<<< HEAD
 =======
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 						$begin 'ris'
 							ris(-1)
 						$end 'ris'
@@ -66598,10 +66618,14 @@ $begin 'AnsoftProject'
 			$end 'GlobalBoundData'
 			$begin 'Boundaries'
 <<<<<<< HEAD
+<<<<<<< HEAD
 				NextUniqueID=21
 =======
 				NextUniqueID=16
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+				NextUniqueID=21
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 				MoveBackwards=false
 				$begin 'Rad1'
 					ID=3
@@ -67042,6 +67066,7 @@ $begin 'AnsoftProject'
 			$end 'FieldsPlotManagerID'
 			$begin 'Report3dInGeomWnd'
 <<<<<<< HEAD
+<<<<<<< HEAD
 				Report3dNum=0
 =======
 				Report3dNum=1
@@ -67053,6 +67078,9 @@ $begin 'AnsoftProject'
 					CoordSys=-1
 				$end 'Report3dPlot_1'
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+				Report3dNum=0
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 			$end 'Report3dInGeomWnd'
 			$begin 'Report2dInGeomWnd'
 				Report2dNum=0
@@ -67247,19 +67275,27 @@ $begin 'AnsoftProject'
 							$begin 'Sweep'
 								Variable='lsub'
 <<<<<<< HEAD
-								Column='80mm'
-=======
-								Column='60mm'
->>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='wsub'
 <<<<<<< HEAD
 								Column='80mm'
 =======
 								Column='60mm'
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+								Column='80mm'
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='wsub'
+<<<<<<< HEAD
+<<<<<<< HEAD
+								Column='80mm'
+=======
+								Column='60mm'
+>>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+								Column='80mm'
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 								Units='mm'
 							$end 'Sweep'
 						$end 'Sweeps'
@@ -67271,12 +67307,17 @@ $begin 'AnsoftProject'
 					Name='LastAdaptive'
 					$begin 'SimDataExtractor'
 <<<<<<< HEAD
+<<<<<<< HEAD
 						SimValue('GainTotal', 1, 90, true, SimValueID=2345, 0, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
 						SimValue('DirTotal', 1, 90, true, SimValueID=2346, 0, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
 =======
 						SimValue('DirTotal', 1, 90, true, SimValueID=1730, 0, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
 						SimValue('GainTotal', 1, 90, true, SimValueID=1817, 0, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+						SimValue('GainTotal', 1, 90, true, SimValueID=2345, 0, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
+						SimValue('DirTotal', 1, 90, true, SimValueID=2346, 0, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 						$begin 'Sweeps'
 							$begin 'Sweep'
 								Variable='Freq'
@@ -67373,12 +67414,17 @@ $begin 'AnsoftProject'
 					Name='Sweep'
 					$begin 'SimDataExtractor'
 <<<<<<< HEAD
+<<<<<<< HEAD
 						SimValue('S(1,1)', 2, 90, false, SimValueID=2262, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						SimValue('Gamma(1)', 2, 90, false, SimValueID=2344, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 =======
 						SimValue('S(1,1)', 2, 90, false, SimValueID=1731, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						SimValue('Gamma(1)', 2, 90, false, SimValueID=1816, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+						SimValue('S(1,1)', 2, 90, false, SimValueID=2262, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Gamma(1)', 2, 90, false, SimValueID=2344, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -67477,6 +67523,9 @@ $begin 'AnsoftProject'
 			$end 'SimSetup'
 			$begin 'Version ID Map'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 				V=2351
 				$begin 'Setup'
 					N='Setup1'
@@ -67486,6 +67535,7 @@ $begin 'AnsoftProject'
 					Soln(N='Sweep', V=2351)
 				$end 'Setup'
 				IQM=2352
+<<<<<<< HEAD
 =======
 				V=1827
 				$begin 'Setup'
@@ -67497,6 +67547,8 @@ $begin 'AnsoftProject'
 				$end 'Setup'
 				IQM=1828
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 			$end 'Version ID Map'
 			$begin 'ID Map'
 				$begin 'Setup'
@@ -67548,21 +67600,29 @@ $begin 'AnsoftProject'
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
 <<<<<<< HEAD
+<<<<<<< HEAD
 						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -11, -45, 0, 0, 1355, 426), OrientationMatrix(0.00854354165494442, 0.000938312849029899, 0.00197175820358098, 0, 0.00189531315118074, 0.000768050842452794, -0.00857773330062628, 0, -0.00108447333332151, 0.0087343892082572, 0.000542455702088773, 0, 0.036101907491684, -0.05202442035079, -5.63770961761475, 1, 0, -0.240477204322815, 0.745514214038849, -0.321671217679977, 0.201924264431, 3.1300802230835, 8.14544773101807), Drawings[120: 'subs', 'Port', 'Rectangle9', 'Rectangle10', 'Rectangle11', 'Rectangle12', 'Rectangle13', 'Rectangle14', 'Rectangle15', 'Rectangle16', '', 'Box2', 'Rectangle1', 'Rectangle2', 'C1', 'C2', 'L', 'R', 'Rectangle21', 'Rectangle22', 'C3', 'C4', 'L1', 'R1', 'Rectangle1_1', 'Rectangle1_2', 'Rectangle2_1', 'Rectangle2_2', 'Rectangle21_1', 'Rectangle21_2', 'Rectangle22_1', 'Rectangle22_2', 'C1_1', 'C1_2', 'C2_1', 'C2_2', 'L_1', 'L_2', 'R_1', 'R_2', 'C3_1', 'C3_2', 'C4_1', 'C4_2', 'L1_1', 'L1_2', 'R1_1', 'R1_2', 'Rectangle1_3', 'Rectangle1_4', 'Rectangle2_3', 'Rectangle2_4', 'Rectangle21_3', 'Rectangle21_4', 'Rectangle22_3', 'Rectangle22_4', 'Rectangle1_1_1', 'Rectangle1_1_2', 'Rectangle1_2_1', 'Rectangle1_2_2', 'Rectangle2_1_1', 'Rectangle2_1_2', 'Rectangle2_2_1', 'Rectangle2_2_2', 'Rectangle21_1_1', 'Rectangle21_1_2', 'Rectangle21_2_1', 'Rectangle21_2_2', 'Rectangle22_1_1', 'Rectangle22_1_2', 'Rectangle22_2_1', 'Rectangle22_2_2', 'C1_3', 'C1_4', 'C2_3', 'C2_4', 'L_3', 'L_4', 'R_3', 'R_4', 'C1_1_1', 'C1_1_2', 'C1_2_1', 'C1_2_2', 'C2_1_1', 'C2_1_2', 'C2_2_1', 'C2_2_2', 'L_1_1', 'L_1_2', 'L_2_1', 'L_2_2', 'R_1_1', 'R_1_2', 'R_2_1', 'R_2_2', 'C3_3', 'C3_4', 'C4_3', 'C4_4', 'L1_3', 'L1_4', 'R1_3', 'R1_4', 'C3_1_1', 'C3_1_2', 'C3_2_1', 'C3_2_2', 'C4_1_1', 'C4_1_2', 'C4_2_1', 'C4_2_2', 'L1_1_1', 'L1_1_2', 'L1_2_1', 'L1_2_2', 'R1_1_1', 'R1_1_2', 'R1_2_1', 'R1_2_2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=2, dYForGrid=2, dZForGrid=2, dRForGrid=2, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 =======
 						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(5, -1, -1, -8, -31, 0, 0, 1478, 424), OrientationMatrix(0.0236458424478769, -0.0136518934741616, 0.0193067286163568, 0, 0.0236458200961351, 0.0136519083753228, -0.0193066950887442, 0, 2.18532498763579e-08, 0.0273038148880005, 0.0193067211657763, 0, -0.00379434181377292, -0.0371429175138474, -6.01620054244995, 1, 0, -3.0944881439209, 3.0944881439209, -1, 1, -1.31317806243896, 12.8768377304077), Drawings[11: 'subs', 'Port', 'Rectangle9', 'Rectangle10', 'Rectangle11', 'Rectangle12', 'Rectangle13', 'Rectangle14', 'Rectangle15', 'Rectangle16', ''], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=5, dYForGrid=5, dZForGrid=5, dRForGrid=5, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -11, -45, 0, 0, 1355, 426), OrientationMatrix(0.00854354165494442, 0.000938312849029899, 0.00197175820358098, 0, 0.00189531315118074, 0.000768050842452794, -0.00857773330062628, 0, -0.00108447333332151, 0.0087343892082572, 0.000542455702088773, 0, 0.036101907491684, -0.05202442035079, -5.63770961761475, 1, 0, -0.240477204322815, 0.745514214038849, -0.321671217679977, 0.201924264431, 3.1300802230835, 8.14544773101807), Drawings[120: 'subs', 'Port', 'Rectangle9', 'Rectangle10', 'Rectangle11', 'Rectangle12', 'Rectangle13', 'Rectangle14', 'Rectangle15', 'Rectangle16', '', 'Box2', 'Rectangle1', 'Rectangle2', 'C1', 'C2', 'L', 'R', 'Rectangle21', 'Rectangle22', 'C3', 'C4', 'L1', 'R1', 'Rectangle1_1', 'Rectangle1_2', 'Rectangle2_1', 'Rectangle2_2', 'Rectangle21_1', 'Rectangle21_2', 'Rectangle22_1', 'Rectangle22_2', 'C1_1', 'C1_2', 'C2_1', 'C2_2', 'L_1', 'L_2', 'R_1', 'R_2', 'C3_1', 'C3_2', 'C4_1', 'C4_2', 'L1_1', 'L1_2', 'R1_1', 'R1_2', 'Rectangle1_3', 'Rectangle1_4', 'Rectangle2_3', 'Rectangle2_4', 'Rectangle21_3', 'Rectangle21_4', 'Rectangle22_3', 'Rectangle22_4', 'Rectangle1_1_1', 'Rectangle1_1_2', 'Rectangle1_2_1', 'Rectangle1_2_2', 'Rectangle2_1_1', 'Rectangle2_1_2', 'Rectangle2_2_1', 'Rectangle2_2_2', 'Rectangle21_1_1', 'Rectangle21_1_2', 'Rectangle21_2_1', 'Rectangle21_2_2', 'Rectangle22_1_1', 'Rectangle22_1_2', 'Rectangle22_2_1', 'Rectangle22_2_2', 'C1_3', 'C1_4', 'C2_3', 'C2_4', 'L_3', 'L_4', 'R_3', 'R_4', 'C1_1_1', 'C1_1_2', 'C1_2_1', 'C1_2_2', 'C2_1_1', 'C2_1_2', 'C2_2_1', 'C2_2_2', 'L_1_1', 'L_1_2', 'L_2_1', 'L_2_2', 'R_1_1', 'R_1_2', 'R_2_1', 'R_2_2', 'C3_3', 'C3_4', 'C4_3', 'C4_4', 'L1_3', 'L1_4', 'R1_3', 'R1_4', 'C3_1_1', 'C3_1_2', 'C3_2_1', 'C3_2_2', 'C4_1_1', 'C4_1_2', 'C4_2_1', 'C4_2_2', 'L1_1_1', 'L1_1_2', 'L1_2_1', 'L1_2_2', 'R1_1_1', 'R1_1_2', 'R1_2_1', 'R1_2_2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=2, dYForGrid=2, dZForGrid=2, dRForGrid=2, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
 					$begin 'ReportManager'
 						$begin 'Reports'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 						$end 'Reports'
 						NextUniqueID=70
 						MoveBackwards=false
 						$begin 'NextVersID'
 							NextUniqueID=78
+<<<<<<< HEAD
 =======
 							$begin 'S Parameter Plot1'
 								ReportID=59
@@ -67846,10 +67906,13 @@ $begin 'AnsoftProject'
 						$begin 'NextVersID'
 							NextUniqueID=64
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
 					$begin 'Reports'
+<<<<<<< HEAD
 <<<<<<< HEAD
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
@@ -69534,6 +69597,10 @@ $begin 'AnsoftProject'
 							$end 'WindowInfoList'
 						$end 'Directivity Plot1'
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 				$begin 'Properties'
@@ -69584,6 +69651,9 @@ AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
 CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
 3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKK/Kb/gqt8VfiDaeDv2ev2T/\
 gj4+8UfDX42/tp/Hzwd8LtE8deBdY1DQvG3w/8Ahf4Y1HT/ABf8ZPiL4d1TSbuC5tZtN8PW2m205hkR\
 2tvEUwV1PNAH6s0V+N/7BP7Y/jiH/gnf8aPEnxlfUfiH+0J+wBbfHz4XfHHTtd8RXkXiDxt4r/Z20vX\
@@ -69706,6 +69776,7 @@ Vb+1uJtXt/iX+0Zr2q3vj74s6pZ61/Zlxa+JNJu/h7f61cWN7deJtO1G11iXSLP9W/gz8DPg9+zv4Gs\
 Phv8ABD4c+FPhl4LsPssv9jeFdKgsP7T1G10jS9B/t/xJqOGu/FniufSdE0mK81jU57vVL/7BHJe3lx\
 Ku+vVqK7KeHo0nzQppS77v0u9beW3kd9LDUKL5qdJKb+1a8vS+6XkrLyCiiitjcKKKKACiiigAooooA\
 KKKKACiiigD/9k='
+<<<<<<< HEAD
 =======
 Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAoorJ17XtD8K6HrXifxPrOk+HPDXhzS\
 dR17xD4h17UbPR9D0HQ9Hs5tQ1bWda1bUJo7fS9JtbC3uJ7m5nkjhghgeWV1RWYG24NpJtuyRrV5V8Z\
@@ -69834,6 +69905,8 @@ eH9e+Nlxe2serpquk63FZ+B7vTfEi6Lf+C9VudKXxHqf3V8LPg/8MPgl4YPg/wCFPgnQfBGhT3x1jVY\
 PrL52X926udEMNfWs+b+6vh+el5fO0f7t1cydB0HQ/Cuh6N4Y8MaNpPhzw14c0nTtB8PeHtB06z0fQ9\
 B0PR7OHT9J0bRtJ0+GO30vSbWwt7eC2toI44YIYEiiRUVVGtRRXTtsdSSSslZIKKKKAP//Z'
 >>>>>>> d03ecc8462ac8f1a19e10451c5e319100d6edc4b
+=======
+>>>>>>> 6dd4d05374c332efa1be54c275a4dc20264cf144
 	$begin 'DesignInfo'
 		DesignName='HFSSDesign1'
 		Notes=''
